@@ -97,7 +97,11 @@ input[type='submit'] {
   .accueil-introduction img {
     order: 1;
     margin-bottom: 20px;
-    width: 100%;
+  }
+
+  #image-1 {
+    width: 150px !important;
+    height: 150px !important;
   }
 
   .accueil-photos {
