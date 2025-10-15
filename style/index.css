@@ -99,16 +99,6 @@ input[type='submit'] {
     margin-bottom: 20px;
   }
 
-  #image-1 {
-    width: 150px !important;
-    height: 150px !important;
-  }
-
-#image-2 {
-    width: 150px !important;
-    height: 150px !important;
-  }
-
   .accueil-photos {
     padding: 20px;
   }
