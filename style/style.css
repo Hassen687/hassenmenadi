@@ -85,6 +85,7 @@ nav a {
   width: 300px;
   height: auto;
   border-radius: 30px;
+  border: 2px solid #a5b4fc;
 }
 
 footer img {
@@ -98,35 +99,6 @@ footer .logo-footer {
   height: auto;;
 }
 
-#image-1 {
-  width: 350px;
-  height: 300px;
-}
-
-#image-2 {
-    width: 350px !important;
-    height: 300px !important;
-}
-
-#image-3 {
-    width: 350px !important;
-    height: 300px !important;
-}
-
-#image-4 {
-    width: 350px !important;
-    height: 300px !important;
-}
-
-#image-5 {
-    width: 350px !important;
-    height: 300px !important;
-}
-
-#image-6 {
-    width: 350px !important;
-    height: 300px !important;
-}
 
 
 @media screen and (max-width: 480px) {
@@ -159,3 +131,29 @@ footer .logo-footer {
   }
 }
 
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 📱 Ajustement spécifique pour mobile */
+@media screen and (max-width: 480px) {
+  .accueil-photos div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .accueil-photos img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .selfie-hm {
+    width: 80%;
+    height: auto;
+  }
+}
