@@ -37,6 +37,13 @@
   padding-right: 80px;
 }
 
+.accueil-introduction a {
+  text-align: center;
+  display: inline-block;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
 .section-contact h2 {
   color: #a5b4fc;
   text-align: center;
